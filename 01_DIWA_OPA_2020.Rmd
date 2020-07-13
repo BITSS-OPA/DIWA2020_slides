@@ -191,7 +191,7 @@ background-size: contain
 ]
 --
 .font140[
-- Alternative facts (“The Death of Expertise” Nichols, 2017; “The Death of Truth”, Kakutani 2018; “Truth Decay”, Rich & Kavanagh 2018)
+- Alternative facts (“The Death of Expertise” Nichols, 2017; “The Death of Truth”, Kakutani 2018; “Post-Truth”, McIntyre 2018)
 ]
 ---
 # How This Affects The Evidence Based Policy Link?
@@ -316,11 +316,7 @@ background-image: url(Images/opa_framework.svg)
 background-size: contain
 count:true
 # A Framework for Open Policy Analysis
----
-background-image: url(Images/aspiration.png)
-background-size: contain
-count:true
-# An Aspiration
+
 ---
 class: inverse, center, middle
 name: case_studies
@@ -331,7 +327,49 @@ name: case_studies
 
 ---
 
+# \#1 Minimum Wage in the US
+- 2017
+- Proof of concept
+- Stackeholders involved: none
+- Result: [Dynamic Document](https://rpubs.com/fhoces/dd_cbo_mw), and [Sensitivity Analysis](https://www.rand.org/pubs/rgs_dissertations/RGSD394.html)
+- Impact: maybe influenced new policies at CBO 
+---
 
+# \#2 Wealth Tax (US)
+- 2019
+- [First full OPA](https://www.bitss.org/opa/projects/progressive-wealth-tax/)
+- Stackeholders involved: original policy analysts
+- Impact: praised in social media
+
+---
+
+# \#3 Deworming Interventions (Kenya+)
+- 2020
+- Stackeholders involved: original policy analysts and some key policy makers
+- Expected impact: will directly support policy decisions in several countries
+
+---
+# Our Plan for OPA
+
+- Develop framework to support OPA
+- Support transition/adoption of OPA, and develop case studies
+- Train students and analysts 
+- Raise awareness
+
+
+---
+background-image: url(Images/aspiration.png)
+background-size: contain
+count:true
+# An Aspiration
+
+---
+class: inverse, center, middle
+name: framework
+
+# Discussion
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width= %total% ></html>
 
 ```{r gen_pdf, include = FALSE, cache = FALSE, eval = FALSE}
 pagedown::chrome_print("index.html", output = "01_DIWA_OPA_2020.pdf")
