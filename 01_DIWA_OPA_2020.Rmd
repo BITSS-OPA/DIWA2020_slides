@@ -108,12 +108,45 @@ name: introductions
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width= %total% ></html>
 
 ---
+background-image: url("Images/BITSSlogo.png"), url(Images/cega.png)
+background-size: contain, 200px
+background-position: 50% 100% , 0% 100% 
+name: about-bitss
+# About Us
+  
+  
+### [BITSS](https://bitss.org)   
+
+.pull-left[
+The Berkeley Initiative for Transparency in the Social Sciences works to improve </br>the credibility of science by </br>
+advancing transparency, </br> reproducibility,  rigor, and </br> ethics in research. 
+
+### OPA  
+  
+
+ Aleks Bogdanoski  
+
+ Fernando Hoces  
+ 
+ Katie Hoeberling  
+
+]
+.pull-right[ .right[
+We are part of the Center for Effective Global Action ([CEGA](https://cega.berkeley.edu/)).   
+ </br></br></br></br></br></br></br></br>
+ Edward Miguel   
+
+ Emma Ng   
+
+  ]]
+ 
+---
 # About Me
 
 <br>
 .font140[
-- Long time aspiration to contribute in bringing more empirical rigor to policy discussions
-  - Admire academic pursuit of rigor and global scope of the endevour
+- Long time aspiration to contribute to bringing more empirical rigor to policy discussions
+  - Admire academic pursuit of rigor and global scope of the endeavor
   - Not so interested in novelty, struggle with academic contempt towards policy analysis
   - Admire relevancy of policy analysis, but struggle with lack of rigor
 - Work as a policy economist for 4 years in Chile (Poverty, Education)
@@ -124,10 +157,12 @@ name: introductions
 # About You
 <br>
 .font140[
-- In one word: which area do you work on? (e.g. health, poverty, labor, energy, etc.)
-- What policy issue has occupied most of your time lately? (e.g identifying vulnerable populations, 
-providing essential goods or services, building infraestructure, etc.)
-- What type of analysis did you used, or would have liked to use, to inform the previous policy issue (e.g. geografical estimates of poverty, accurate costs of provision of goods and services, context relevan cost-benefits analysis)
+- In one word: which area do you work on? 
+   - Example: health, poverty, labor, energy, etc.
+- What policy issue has occupied most of your time lately? 
+   - Example: identifying vulnerable populations, providing essential goods or services, building infraestructure, etc.
+- What type of analysis did you used, or would have liked to use, to inform the previous policy issue?
+   - Example: geografical estimates of poverty, accurate costs of provision of goods and services, context relevant cost-benefits analysis. 
 ]
 ---
 class: inverse, center, middle
@@ -135,8 +170,11 @@ name: framework
 
 # A Framework for Open Policy Analysis
 
+
+
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width= %total% ></html>
 
+.font170[Based on [Hoces, Grant and Miguel 2020](https://osf.io/preprints/metaarxiv/jnyqh/)]
 ---
 name: motivation
 
@@ -224,6 +262,14 @@ background-size: contain
 ]
 ---
 # How This Affects The Evidence Based Policy Link?
+
+---
+background-image: url(Images/figure_1_1.png)
+background-size: contain
+count:false
+
+# How This Affects The Evidence Based Policy Link?
+
 ---
 background-image: url(Images/fig2.png)
 background-size: contain 
@@ -364,7 +410,7 @@ name: case_studies
 - Proof of concept
 - Stackeholders involved: none
 - Result: [Dynamic Document](https://rpubs.com/fhoces/dd_cbo_mw), and [Sensitivity Analysis](https://www.rand.org/pubs/rgs_dissertations/RGSD394.html)
-- Impact: maybe influenced new policies at CBO ]
+- Impact: maybe influenced new policies at mayor policy analysis organization (CBO) ]
 
 ---
 
@@ -392,7 +438,7 @@ name: case_studies
 <br>
 .font140[
 - Develop framework to support OPA
-- Support transition/adoption of OPA, and develop case studies
+- Support transition/adoption of OPA, and develop **case studies**
 - Train students and analysts 
 - Build a comunity of practice
 ]
@@ -411,6 +457,26 @@ name: framework
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width= %total% ></html>
 
-```{r gen_pdf, include = FALSE, cache = FALSE, eval = TRUE}
+
+---
+
+# Open Discussion
+
+<br>
+
+.font140[
+- What are the key providers of policy analysis in your country? 
+
+- Is there an example of a previous analysis that you think could have benefited from the OPA framework?
+
+- Can you think of a topic in the near future (up to 2 years) where a policy analysis will be generated and might benefit from the OPA framework?
+
+Feel free to paste references in the chat, or send them to me by email: fhoces@berkeley.edu
+
+]
+
+```{r gen_pdf, include = FALSE, cache = FALSE, eval = FALSE}
 pagedown::chrome_print("index.html", output = "01_DIWA_OPA_2020.pdf")
 ```
+
+
