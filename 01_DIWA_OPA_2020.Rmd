@@ -99,7 +99,36 @@ library(fontawesome)
 ### Case Studies on OPA
 
 ### Discussion
+---
+class: inverse, center, middle
+name: introductions
 
+# Introductions
+
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width= %total% ></html>
+
+---
+# About Me
+
+<br>
+.font140[
+- Long time aspiration to contribute in bringing more empirical rigor to policy discussions
+  - Admire academic pursuit of rigor and global scope of the endevour
+  - Not so interested in novelty, struggle with academic contempt towards policy analysis
+  - Admire relevancy of policy analysis, but struggle with lack of rigor
+- Work as a policy economist for 4 years in Chile (Poverty, Education)
+- Migrated to the US for family reasons 8 years ago
+]
+
+---
+# About You
+<br>
+.font140[
+- In one word: which area do you work on? (e.g. health, poverty, labor, energy, etc.)
+- What policy issue has occupied most of your time lately? (e.g identifying vulnerable populations, 
+providing essential goods or services, building infraestructure, etc.)
+- What type of analysis did you used, or would have liked to use, to inform the previous policy issue (e.g. geografical estimates of poverty, accurate costs of provision of goods and services, context relevan cost-benefits analysis)
+]
 ---
 class: inverse, center, middle
 name: framework
@@ -294,8 +323,8 @@ count:true
 # Open Output: One Single Output
 ---
 background-image: url(Images/output-input.gif), url(Images/open_output2.svg)
-background-size: 800px, 300px
-background-position: 100% 50%, 0% 40%
+background-size: 700px, 300px
+background-position: 80% 50%, 0% 40%
 count:true
 # Open Output: Clear Input-Output Link 
 ---
@@ -327,35 +356,46 @@ name: case_studies
 
 ---
 
-# \#1 Minimum Wage in the US
+# \#1 Minimum Wage (US)
+
+<br>
+.font140[
 - 2017
 - Proof of concept
 - Stackeholders involved: none
 - Result: [Dynamic Document](https://rpubs.com/fhoces/dd_cbo_mw), and [Sensitivity Analysis](https://www.rand.org/pubs/rgs_dissertations/RGSD394.html)
-- Impact: maybe influenced new policies at CBO 
+- Impact: maybe influenced new policies at CBO ]
+
 ---
 
 # \#2 Wealth Tax (US)
+
+<br>
+.font140[
 - 2019
 - [First full OPA](https://www.bitss.org/opa/projects/progressive-wealth-tax/)
 - Stackeholders involved: original policy analysts
 - Impact: praised in social media
-
+]
 ---
 
 # \#3 Deworming Interventions (Kenya+)
-- 2020
+
+<br>
+.font140[
+- 2020 (August - September)
 - Stackeholders involved: original policy analysts and some key policy makers
 - Expected impact: will directly support policy decisions in several countries
-
+]
 ---
 # Our Plan for OPA
-
+<br>
+.font140[
 - Develop framework to support OPA
 - Support transition/adoption of OPA, and develop case studies
 - Train students and analysts 
-- Raise awareness
-
+- Build a comunity of practice
+]
 
 ---
 background-image: url(Images/aspiration.png)
@@ -371,6 +411,6 @@ name: framework
 
 <html><div style='float:left'></div><hr color='#EB811B' size=1px width= %total% ></html>
 
-```{r gen_pdf, include = FALSE, cache = FALSE, eval = FALSE}
+```{r gen_pdf, include = FALSE, cache = FALSE, eval = TRUE}
 pagedown::chrome_print("index.html", output = "01_DIWA_OPA_2020.pdf")
 ```
