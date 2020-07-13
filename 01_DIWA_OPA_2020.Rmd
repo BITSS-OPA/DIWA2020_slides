@@ -2,7 +2,7 @@
 title: "Open Policy Analysis"
 subtitle: "Development Impact West Africa"
 author: "Fernando Hoces, </br> Berkeley Initiative for Transparency in the Social Sciences </br> CEGA"
-date:  "`r format(Sys.Date(), '%d %B %Y')` | [slides](https://github.com/BITSS-OPA/DIWA2020_slides/tree/master/)"
+date:  "`r format(as.Date('2020-07-13'), '%d %B %Y')` | [slides]( https://bitss-opa.github.io/DIWA2020_slides/#1)"
 output: 
   xaringan::moon_reader:
     footer: "These slides available at http://bit.ly/myslides"
