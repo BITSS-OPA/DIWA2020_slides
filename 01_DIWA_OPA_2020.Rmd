@@ -372,12 +372,35 @@ count:true
 # The Process of Policy Analysis
 
 ---
-background-image: url(Images/test.gif), url(Images/open_analysis.svg)
+background-image: url(Images/main_pe.png), url(Images/open_output1.svg)
+background-size: 500px, 300px
+background-position: 80% 50%, 0% 40%
+count:true
+# Open Output: One Single Output
+---
+background-image: url(Images/output-input.gif), url(Images/open_output2.svg)
+background-size: 800px, 300px
+background-position: 100% 50%, 0% 40%
+count:true
+# Open Output: Clear Input-Output Link 
+---
+background-image: url(Images/open_analysis.gif), url(Images/open_analysis.svg)
 background-size: 900px, 300px
 background-position: 100% 50%, 0% 40%
 count:true
 # Open Analysis
 
+---
+background-image: url(Images/open_materials.gif), url(Images/open_materials.svg)
+background-size: 900px, 300px
+background-position: 100% 50%, 0% 40%
+count:true
+# Open Materials 
+---
+background-image: url(Images/opa_framework.svg)
+background-size: contain
+count:true
+# A Framework for Open Policy Analysis
 ---
 
 # Table of Contents for Part I 
